@@ -1,0 +1,43 @@
+.navbar-brand{
+	 font-family: 'Roboto', sans-serif; 
+	 font-size: 2em;
+	 font-weight: bold;
+}
+
+/*change menu color*/
+
+.navbar #myMenu .custom-nav .nav-item a{
+	color: #fff;
+}
+
+.navbar #myMenu .custom-nav .nav-item a:hover{
+	color: #F0AAB1;
+}
+
+/*header img*/
+.back-img{
+
+	background-size: cover;
+	min-height: 90vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 0px;
+	margin-top: 74px;
+
+}
+
+/*header paragraph*/
+
+.font-italic{
+	font-size: 20px;
+}
+
+.mainHeading {
+	margin-top: 50px;
+}
+@media only screen and (max-width: 600px){
+.myclass{
+	margin-top: 350px;
+	text-align: center;
+}
+}
